@@ -1,0 +1,24 @@
+.img {
+    text-align: center;
+}
+
+.list {
+    padding-left: 20px;
+}
+
+.header {
+    text-align: center;
+}
+
+body {
+    background-color: beige;
+}
+
+.box {
+    background-color: white;
+    margin: auto;
+    width: 595px;
+    height: 842px;
+    padding: 60px;
+    box-shadow: 0 0 5px 5px rgba(122, 122, 122, 0.5);
+}
