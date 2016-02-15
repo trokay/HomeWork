@@ -1,0 +1,157 @@
+body {
+    color: #f9f9f9;
+}
+
+.box {
+    width: 1069px;
+    height: 1020px;
+    margin: auto;
+    color: black;
+    box-shadow: 0 0 5px 0px rgba(122, 122, 122, 0.5);
+}
+
+
+/*HEADER*/
+
+.logo {
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+
+/*TOPMENU*/
+
+.topmenu {
+    background-image: -moz-linear-gradient( 90deg, rgb(68, 67, 67) 0%, rgb(94, 94, 94) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(68, 67, 67) 0%, rgb(94, 94, 94) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(68, 67, 67) 0%, rgb(94, 94, 94) 100%);
+    width: 966px;
+    height: 40px;
+    margin: 50px;
+}
+
+.menu a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    line-height: 2.5em;
+}
+
+.menu li {
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.menu li a:hover {
+    background-image: -moz-linear-gradient( 90deg, rgb(46, 46, 46) 0%, rgb(74, 74, 74) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(46, 46, 46) 0%, rgb(74, 74, 74) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(46, 46, 46) 0%, rgb(74, 74, 74) 100%);
+    border-left: 1px solid #838383;
+    border-right: 1px solid #838383;
+}
+
+
+/*LEFTMENU*/
+
+.leftmenu {
+    float: left;
+    width: 180px;
+    padding-left: 50px;
+    width: 25%;
+}
+
+.leftmenu a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding-left: 20px;
+    line-height: 2em;
+}
+
+.leftmenu li {
+    border: 1px solid #838383;
+}
+
+.leftmenu li a:hover {
+    background-color: grey;
+    text-indent: 20px;
+}
+
+
+/*CONTENT*/
+
+.item {
+    padding-left: 336px;
+    width: 500px;
+    height: auto;
+}
+
+.item img {
+    border: 1px solid #838383;
+}
+
+.text1 {
+    width: 650px;
+    height: auto;
+    float: right;
+    padding-right: 50px;
+    padding-top: 30px;
+}
+
+
+/*FOOTER*/
+
+.foot {
+    width: 966px;
+    height: 40px;
+    margin: 50px;
+    padding-top: 200px;
+}
+
+.botmenu {
+    background-color: #cccccc;
+    width: 966px;
+    height: 40px;
+    margin-top: 250px;
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+
+}
+.menu1 a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    line-height: 2.5em;
+}
+.menu1 li {
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 300px;
+}
+.menu1 a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    line-height: 2.5em;
+}
+.menu1 a:hover {
+    text-decoration: underline;
+}
+.copy {
+    display: inline-block;
+    float: right;
+}
+.copy a {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+.copy a:hover {
+    text-decoration: underline;
+}
