@@ -151,7 +151,7 @@ body {
     display: inline-block;
     float: right;
 }
-.copy a {
+.copy li {
     display: block;
     text-decoration: none;
     color: black;

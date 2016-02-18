@@ -1,0 +1,206 @@
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            background: url('../img/background.png');
+        }
+        
+        .box {
+            width: 1000px;
+            margin: auto;
+            color: black;
+            /*box-shadow: 0 0 7px 0px rgba(122, 122, 122, 0.5);*/
+            background-color: white;
+            font-family: sans-serif;
+            box-shadow: 0 0 5px 2px;
+        }
+        
+        .logo {
+            float: left;
+            padding-top: 40px;
+            padding-left: 20px;
+        }
+        
+        .logo a {
+            display: block;
+            text-decoration: none;
+            height: 173px;
+        }
+        
+        .logo img {
+            border: none;
+        }
+        
+        .telef {
+            color: #3399cc;
+            float: right;
+            padding-right: 50px;
+            padding-top: 35px;
+        }
+        
+        .telef li {
+            list-style-type: none;
+            display: block;
+        }
+        
+        .str {
+            padding-top: 40px;
+            clear: both;
+            float: right;
+            padding-right: 15px;
+        }
+        
+        .str li {
+            padding-left: 5px;
+            padding-right: 5px;
+            font-size: 10px;
+            text-align: center;
+            list-style-type: none;
+            display: inline-block;
+        }
+        
+        .str a {
+            color: #3399cc;
+            display: block;
+        }
+        
+        .foto {
+            height: 239px;
+            clear: both;
+        }
+        
+        .foto img {
+            border-bottom: 1px solid #009999;
+            border-top: 1px solid #009999;
+        }
+        
+        .wrapper {
+            float: right;
+        }
+        
+        .spisok {
+            display: block;
+        }
+        
+        .spisok li {
+            list-style-type: none;
+            display: inline-block;
+        }
+        
+        .spisok li a {
+            text-decoration: none;
+        }
+        
+        .menu {
+            background-image: url('../img/panel.png');
+        }
+        
+        .menu a {
+            display: block;
+            text-decoration: none;
+            color: white;
+            font-size: 14px;
+            padding-left: 30px;
+            padding-right: 30px;
+            height: 30px;
+            line-height: 2em;
+        }
+        
+        .cont {
+            width: 1000px;
+            overflow: hidden;
+        }
+        
+        .inform {
+            width: 200px;
+            float: left;
+            background: #cccccc;
+            padding-bottom: 20000px;
+            margin-bottom: -20000px;
+            text-align: center;
+            padding-top: 5px;
+        }
+        
+        .center {
+            width: 600px;
+            float: left;
+            background: white;
+            padding-bottom: 20000px;
+            margin-bottom: -20000px;
+            padding-top: 5px;
+        }
+        
+        .news {
+            width: 200px;
+            float: left;
+            background: #cccccc;
+            padding-bottom: 20000px;
+            margin-bottom: -20000px;
+            text-align: center;
+            padding-top: 5px;
+        }
+        
+        .center span {
+            color: white;
+        }
+        
+        .inform h1 {
+            font-size: 18px;
+            color: #333333;
+        }
+        
+        .news h1 {
+            font-size: 18px;
+            color: #333333;
+        }
+        
+        .inform p {
+            font-size: 14px;
+            color: #333333;
+        }
+        
+        .news p {
+            font-size: 14px;
+            color: #333333;
+        }
+        
+        .copy {
+            height: 50px;
+            text-align: center;
+            color: white;
+            font-size: 12px;
+            font-family: sans-serif;
+            line-height: 3.5em;
+        }
+        
+        .spisok ul {
+            display: block;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        
+        .list {
+            position: relative;
+        }
+        
+        .put {
+            position: absolute;
+            width: 100%;
+            background: #333333;
+            opacity: 0;
+            width: 164px;
+            top: -9999em;
+        }
+        
+        .terit:hover .put {
+            opacity: 1;
+            top: 1.87em;
+            transition: 0.5s opacity;
+        }
+        
+        .put {
+            box-shadow: 0 0 5px 1px;
+        }
