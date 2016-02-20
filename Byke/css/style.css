@@ -137,6 +137,7 @@ body {
     background-color: #000000;
     border: none;
     color: aliceblue;
+    padding-left: 10px;
 }
 
 .osn input:hover {
