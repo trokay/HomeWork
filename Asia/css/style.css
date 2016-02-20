@@ -45,6 +45,11 @@
             display: block;
         }
         
+        .telef li a {
+            text-decoration: none;
+            color: #3399cc;
+        }
+        
         .str {
             padding-top: 40px;
             clear: both;
@@ -146,12 +151,12 @@
             color: white;
         }
         
-        .inform h1 {
+        .inform h2 {
             font-size: 18px;
             color: #333333;
         }
         
-        .news h1 {
+        .news h2 {
             font-size: 18px;
             color: #333333;
         }
