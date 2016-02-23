@@ -183,17 +183,17 @@ body {
     box-shadow: none;
 }
 
-.cnopka {
+.button {
     padding-top: 15px;
 }
 
-.cnopka input {
+.button input {
     background-color: #4aa5d7;
     border-radius: 4px;
     width: 150px;
 }
 
-.cnopka input:hover {
+.button input:hover {
     border: none;
     box-shadow: none;
     background-color: #4aa5d7;
