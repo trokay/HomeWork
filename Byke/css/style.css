@@ -24,7 +24,7 @@ body {
     font-family: 'helvetica Neue Regular';
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 1110px;
+    height: 1100px;
 }
 
 .menutop {
@@ -184,17 +184,17 @@ body {
     box-shadow: none;
 }
 
-.button {
+.cnopka {
     padding-top: 15px;
 }
 
-.button input {
+.cnopka input {
     background-color: #4aa5d7;
     border-radius: 4px;
     width: 150px;
 }
 
-.button input:hover {
+.cnopka input:hover {
     border: none;
     box-shadow: none;
     background-color: #4aa5d7;
